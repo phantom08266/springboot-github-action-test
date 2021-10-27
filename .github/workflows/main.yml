@@ -24,7 +24,7 @@ jobs:
     steps:
       # 해당 저장소의 코드를 가져온다.
       - name: Checkout
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
       - name: 자바 1.8 설치
